@@ -19,9 +19,7 @@ public class Calculations {
         int x = (a * b);
         //x = decisive formula about the shape image
         int y = (int) Math.pow(2,bulb-1);
-        //When
-        int result = (x / y) % 2;
         //Then
-        return result;
+        return (x / y) % 2;
     }
 }
